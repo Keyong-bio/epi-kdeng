@@ -1,0 +1,52 @@
+---
+title: "MyBlog"
+author: "PT"
+date: "2023-01-20"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = F)
+# install_hugo()
+blogdown::install_hugo(arch = 'universal')
+```
+
+## Hugo
+
+Hugo theme on github and you can optionally specify a GIT branch or tag name after @, theme can be of the form 
+user/repo@branch
+when the new site is ready:
+1. To start a local preview: use blogdown::serve_site(), or the RStudio add-in "Serve Site"
+2. To stop a local preview: use blogdown::stop_server(), or restart your R session
+
+```{r}
+library(blogdown)
+# blogdown::hugo_version()
+blogdown::new_site(theme = "gurusabarish/hugo-profile", force = T)
+```
+
+## some tips
+config.toml has the global settings for the site in the source pane
+manage changes with Git
+1. check the status of the files in your project `git status`
+2. Add the files to be tracked: `git add .`
+3. command file changes: if you want to commit these changes, use `git commit -m "first commit"`
+4. Push files to github:  `github`
+
+## Create new posts
+The new posts go in the `content` folder, can create new post using the Addins: click on New Post
+Then, choose to use .Rmd file
+You can use `insert image` option under the Addins
+
+## Next
+After finishing, we need to manage the changes with Git. 
+1. git status check 
+2. Add changes using the Git pane (clicking the small checkbox and then clicking commit)
+3. step 2 opens Rstudio's Git management window. I enter a message in the Commit message window, and then click commit, and watch the changes get tracked
+
+## Next
+1. change have been committed, see how things look on the website: blogdown::serve_site()
+2. repeat Git processes -> make sure push these changes to Github repository
+3. click on the Push icon and waiting for the message to tell changes have been pushed to Github (HEAD->master)
+
+
