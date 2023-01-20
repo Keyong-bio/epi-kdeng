@@ -5,6 +5,5 @@ draft: true
 author:
 tags:
 image:
-description:
 toc:
 ---

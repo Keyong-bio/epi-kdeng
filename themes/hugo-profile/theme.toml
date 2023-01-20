@@ -1,12 +1,11 @@
-name = "Hugo Profile"
+name = "Epi-Life"
 license = "MIT"
 licenselink = "https://github.com/gurusabarish/hugo-profile/blob/master/LICENSE"
-description = "A high performance and mobile first hugo template for personal portfolio and blog."
-homepage = "https://github.com/gurusabarish/hugo-profile"
+description = "Life and Medicine"
+homepage = "https://github.com/Keyong-bio/MYBLOG"
 demosite = "https://hugo-profile.netlify.app"
 tags = ["Responsive","Blog", "Portfolio", "Personal"]
 min_version = "0.68.0"
 
 [author]
-  name = "Gurusabarish"
-  homepage = "https://www.linkedin.com/in/gurusabarish/"
+  name = "Keyong"
