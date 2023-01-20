@@ -29,12 +29,12 @@ Menus:
       title: Blog posts
       url: /blogs
       weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
-    #Dropdown menu
+    # - identifier: gallery
+    #  name: Gallery
+    #  title: Blog posts
+    #  url: /gallery
+    #  weight: 2
+    # Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
     #   name: Dropdown
@@ -116,7 +116,7 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Keyong"
+    title: "Keyong Deng"
     subtitle: "I'm a Phd student in LUMC"
     content: "Try to collect the trival things of my life"
     image: /images/me.jpeg
@@ -130,11 +130,11 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/Keyong-bio/MYBLOG
-       # - icon: fab fa-twitter
-       #  url:
+      # - icon: fab fa-twitter
+      #  url:
       # customIcons:
-      #- icon: /fav.png
-          # url: "https://example.com"
+      # - icon: /fav.png
+      #  url: "https://example.com"
 
   # About
   about:
@@ -150,19 +150,19 @@ params:
       items:
         - "R"
         - "Stata"
-        #- "JavaScript"
-        #- "React"
-        #- "Node"
-        #- "Express"
+      # - "JavaScript"
+      # - "React"
+      # - "Node"
+      # - "Express"
 
   # Experience
   experience:
     enable: false
     # title: "Custom Name"
     items:
-      - #job: "Senior Software Developer"
-        #company: "Facebook"
-        #companyUrl: "https://example.com"
+      - job: "Senior Software Developer"
+        company: "Facebook"
+        companyUrl: "https://example.com"
         date: "Jan 2022 - present"
         featuredLink:
           enable: true
@@ -229,36 +229,36 @@ params:
       - title: "Master of Biochemistry and Molecular Biology"
         school:
           name: "Peking Union Medical College, National Center for Cardiovascular Disease, Fuwai Hosiptal"
-          #url: "https://example.org"
+        # url: "https://example.org"
         date: "2019 - 2022"
-        #GPA: "3.8 out of 5.0"
-        #content: |-
-          #Extracurricular Activities
-            #- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            #- Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        # GPA: "3.8 out of 5.0"
+        # content: |-
+        # Extracurricular Activities
+        #    - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        #    - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
       - title: "Bachelor of Preventive Medicine"
         school:
           name: "Nanjing Medical University, School of Public Health"
-          url: "https://example.org"
+        # url: "https://example.org"
         date: "2014 - 209"
         # GPA: "3.9 out of 5.0"
-        #content: |-
-         # I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-         # - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-         # - Face mask detection using a single convolutional neural network.
+        # content: |-
+        # I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+        #  - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+        #  - Face mask detection using a single convolutional neural network.
 
-         # Extracurricular Activities
-           # - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           # - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        # Extracurricular Activities
+        #  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        #  - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
         featuredLink:
           enable: false
           name: "My academic record"
           url: "https://example.com"
-     # - title: "High School"
-       # school:
-         # name: "Thomas Jefferson High School for Science and Technology."
+        # - title: "High School"
+        #  school:
+        #  name: "Thomas Jefferson High School for Science and Technology."
         #  url: "https://example.org"
-       # GPA: "4.2 out of 5.0"
+        #  GPA: "4.2 out of 5.0"
         featuredLink:
           enable: false
           url: "https://example.com"
@@ -291,18 +291,18 @@ params:
         content: Being processing
         image: /images/projects/OMICS.png
         featured:
-          #name: Demo
-          #link: https://hugo-profile.netlify.app
+        # name: Demo
+        # link: https://hugo-profile.netlify.app
         badges:
           - "Genetic"
           - "Epidemiology"
         links:
-          #- icon: fa fa-envelope
-            #url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          #- icon: fab fa-github
-           # url: https://github.com/gurusabarish/hugo-profile
-         # - icon: fab fa-twitter
-           # url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+        # - icon: fa fa-envelope
+        #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+        # - icon: fab fa-github
+        #   url: https://github.com/gurusabarish/hugo-profile
+        # - icon: fab fa-twitter
+        #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: m6A modification assoicated with Cardiovascular Disease
         content: RNA methylation & Disease (2019-2022 Completed)
@@ -312,9 +312,9 @@ params:
           link: https://pubmed.ncbi.nlm.nih.gov/33876670/
         badges:
           - "Publications"
-        #links:
-          #- icon: fab fa-github
-            #url: https://github.com/gurusabarish/converter
+        # links:
+        # - icon: fab fa-github
+        #   url: https://github.com/gurusabarish/converter
 
       - title: Telomere length associated with risk of gestational diabetes
         content: Shorter telomere length may increase risk of gestational diabetes in Chinese population
@@ -324,11 +324,11 @@ params:
           link: https://pubmed.ncbi.nlm.nih.gov/31186510/
         badges:
           - "Publications"
-         # - "Bootstrap"
-         # - "Javascript"
-        #links:
-          #- icon: fab fa-github
-           # url: https://github.com/gurusabarish/HugoProfileV2
+        # - "Bootstrap"
+        # - "Javascript"
+        # links:
+        # - icon: fab fa-github
+        #   url: https://github.com/gurusabarish/HugoProfileV2
 
   #Contact
   contact:
