@@ -8,11 +8,13 @@ categories:
 tags:
   - 生活
 image: ~
-description: ~
+description: 一年又一年🌒
 toc: ~
 ---
-
+<center>
 ###                    2023 🐇 兔年 
+</center>
+
 <center>
 ![(新年烟火)](images/Screenshot 2023-01-20 at 18.41.40.png){width=90% height=50%}
 </center>
@@ -34,5 +36,5 @@ toc: ~
 </center>
 
 <center>
-![(拍于荷兰莱顿)](images/Screenshot 2023-01-20 at 18.40.16.png){width=90% height=50%}
+![(拍于莱顿)](images/Screenshot 2023-01-20 at 18.40.16.png){width=90% height=50%}
 </center>
