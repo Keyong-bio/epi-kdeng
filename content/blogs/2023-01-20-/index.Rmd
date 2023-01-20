@@ -2,14 +2,14 @@
 title: 新春快乐🎆
 author: Epi-kdeng
 date: '2023-01-20'
-slug: []
-categories:
-  - 无
+# slug: []
+# categories:
+#   - 无
 tags:
   - 生活
-image: ~
+image: images/Cover Picture.jpeg
 description: 一年又一年🌒
-toc: ~
+# toc: ~
 ---
 <center>
 ###                    2023 🐇 兔年 
