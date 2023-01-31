@@ -56,7 +56,7 @@ params:
   title: "Epi-Life"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav2.png"
+  # favicon: "/fav2.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -78,14 +78,14 @@ params:
   font:
     fontSize: 1rem # default: 1rem
     fontWeight: 400 # default: 400
-    lineHeight: 1.5 # default: 1.5
+    lineHeight: 2 # default: 1.5
     textAlign: left # default: left
-
+    family: Arial
   # color preference
-  # color:
+  color:
   #   textColor:
   #   secondaryTextColor:
-  #   backgroundColor:
+      backgroundColor: Elephant
   #   secondaryBackgroundColor:
   #   primaryColor:
   #   secondaryColor:
@@ -142,8 +142,8 @@ params:
     title: "About Me"
     image: "/images/me.jpeg"
     content: |-
-      I am a Phd students from LUMC, Nethersland. I come from Yanchen, China.
-      I am currently working on a project related with genetic epidemiology, especially using Omics data to distengle the mechanism of diseases.
+      I am a Phd student in the department of Clinical Epidemiology from LUMC, Netherlands. I come from Yancheng, China.
+      I am currently working on a project related with genetic epidemiology, especially using Omics data to find underlying mechanisms of diseases (mainly focus on Diabetes and Liver disease).
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -305,7 +305,7 @@ params:
         #   url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
       - title: m6A modification assoicated with Cardiovascular Disease
-        content: RNA methylation & Disease (2019-2022 Completed)
+        content: RNA methylation & Disease (2019-2022)
         image: /images/projects/converter.png
         featured:
           name: Pubmed
